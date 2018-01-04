@@ -9,49 +9,18 @@ include "config.php";
         <script src="js/highcharts.js" type="text/javascript"></script>
         <script src="js/exporting.js" type="text/javascript"></script>
         <script src="Chart.bundle.js"></script>
-    <style type="text/css">
-            .container {
-                width: 10%;
-                margin: auto;
-                }
-
-                .table1 {
-                    border: 1;
-                    font-family: sans-serif;
-                    color: #444;
-                    border-collapse: collapse;
-                    width: 75%;
-                    border: 1px solid #f2f5f7;
-                }
-
-                .table1 tr th{
-                    background: #35A9DB;
-                    color: #fff;
-                    font-weight: normal;
-                    text-align: center;
-                }
-
-                .table1, th, td {
-                    padding: 8px 20px;
-                    text-align: center;
-                }
-
-                .table1 tr:hover {
-                    background-color: #f5f5f5;
-                }
-
-                .table1 tr:nth-child(even) {
-                    background-color: #f2f2f2;
-                }          
-        </style>
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
+
         <title>Data Warehouse Pasien Rumah Sakit</title>
+
         <link href="css/style.default.css" rel="stylesheet">
         <link href="css/morris.css" rel="stylesheet">
         <link href="css/select2.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
@@ -251,12 +220,32 @@ include "config.php";
                             </div><!-- row -->
                         </div><!-- panel -->                        
                     </div><!-- contentpanel -->
+                    
+                    
                 </div><!-- mainpanel -->
             </div><!-- mainwrapper -->
         </section>
 
 
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/pace.min.js"></script>
+        <script src="js/retina.min.js"></script>
+        <script src="js/jquery.cookies.js"></script>
         
+        <script src="js/flot/jquery.flot.min.js"></script>
+        <script src="js/flot/jquery.flot.resize.min.js"></script>
+        <script src="js/flot/jquery.flot.spline.min.js"></script>
+        <script src="js/jquery.sparkline.min.js"></script>
+        <script src="js/morris.min.js"></script>
+        <script src="js/raphael-2.1.0.min.js"></script>
+        <script src="js/bootstrap-wizard.min.js"></script>
+        <script src="js/select2.min.js"></script>
+
+        <script src="js/custom.js"></script>
+        <script src="js/dashboard.js"></script>
 
     </body>
 </html>
